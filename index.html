@@ -5,169 +5,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>01 variables y tipos de datos</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./img/cuatro.ico">
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Proyectos</title>
 </head>
 
 <body>
-<div class="contenedor">
-        <button class="run-button" id="saludo_btn">
-            Saludo
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="helado_btn">
-            Heladería
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="datos_personales_btn">
-            Datos Personales
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="playlist_btn">
-            Lista de reproducción
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="direccion_btn">
-            Dirección completa
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="meses_dia_btn">
-            Meses por día
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="familia_btn">
-            Miembros de la familia
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="lista_gustos_btn">
-            Listas de gustos
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="anhos_perro_btn">
-            Años perro
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="min_seg_btn">
-            Minutos a segundos
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="day_seg_btn">
-            Días a segundos
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="km_mi_btn">
-            Kilómetros a millas
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="area_triang_btn">
-            Área de un triangulo
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="porcentaje_btn">
-            Porcentaje
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="viaje_btn">
-            Tiempo de viaje
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="vuelo_btn">
-            Duración vuelo
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="increase_btn">
-            Incremento
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="cel_far_btn">
-            Celsius a Fahrenheit
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="multiplo_btn">
-            Múltiplos
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="caracteres_btn">
-            Cantidad de caracteres
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="vacaciones_btn">
-            Días de vacaciones
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="huespedes_btn">
-            Cantidad de huéspedes
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="calc_gastos_btn">
-            Calculador gastos
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="">
-            Orden de compras
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="per_rectangulo_btn">
-            Perímetro de un rectángulo
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
-        <button class="run-button" id="seg_hs_min_btn">
-            Segundos a horas, minutos y segundos
-            <picture>
-                <img class="play" src="https://img.icons8.com/ios-filled/25/null/play--v1.png" />
-            </picture>
-        </button>
+    <div class="main">
+        <h2 class="titulo">Proyectos</h2>
+        <div class="container">
+            <section class="articulo">
+                <picture class="captura">
+                    <img src="./img/eventos.png" />
+                </picture>
+                <div class="texto">
+                    <h2>Eventos de JS</h2>
+                    <h3>amet consectetur amet consectetur amet consectetur amet consectetur consectetur amet consectetur amet consectetur amet consectetur</h3>
+                </div>
+                <div class="redes">
+                    <a class="web_button boton" target="_blank" href="https://dreschpedro.github.io/eventos_js/">
+                        <img src="https://img.icons8.com/ios-glyphs/90/null/internet--v1.png" />
+                    </a>
+                    <a class="github_button boton" target="_blank" href="https://github.com/dreschpedro/eventos_js">
+                        <img src="https://img.icons8.com/ios-filled/100/null/github.png" />
+                    </a>
+                </div>
+            </section>
+            <section class="articulo">
+                <picture class="captura">
+                    <img src="./img/founddry_co.png" />
+                </picture>
+                <div class="texto">
+                    <h2>Página de práctica 1</h2>
+                    <h3>amet consectetur amet consectetur amet consectetur amet consectetur consectetur amet consectetur amet consectetur amet consectetur</h3>
+                </div>
+                <div class="redes">
+                    <a class="web_button boton" target="_blank" href="./proyectos/founddry_co/founddry.html">
+                        <img src="https://img.icons8.com/ios-glyphs/90/null/internet--v1.png" />
+                    </a>
+                    <!-- <a class="github_button boton" target="_blank" href="">
+                        <img src="https://img.icons8.com/ios-filled/100/null/github.png" />
+                    </a> -->
+                </div>
+            </section>
+            <section class="articulo">
+                <picture class="captura">
+                    <img src="./img/integrador.png" />
+                </picture>
+                <div class="texto">
+                    <h2>Página de práctica 2</h2>
+                    <h3>amet consectetur amet consectetur amet consectetur amet consectetur consectetur amet consectetur amet consectetur amet consectetur</h3>
+                </div>
+                <div class="redes">
+                    <a class="web_button boton" target="_blank" href="./proyectos/integrador/integrador.html">
+                        <img src="https://img.icons8.com/ios-glyphs/90/null/internet--v1.png" />
+                    </a>
+                    <!-- <a class="github_button boton" target="_blank" href="">
+                        <img src="https://img.icons8.com/ios-filled/100/null/github.png" />
+                    </a> -->
+                </div>
+            </section>
+            <section class="articulo">
+                <picture class="captura">
+                    <img src="./img/maqueta.png" />
+                </picture>
+                <div class="texto">
+                    <h2>Página de práctica 3</h2>
+                    <h3>amet consectetur amet consectetur amet consectetur amet consectetur consectetur amet consectetur amet consectetur amet consectetur</h3>
+                </div>
+                <div class="redes">
+                    <a class="web_button boton" target="_blank" href="./proyectos/maqueta/maqueta.html">
+                        <img src="https://img.icons8.com/ios-glyphs/90/null/internet--v1.png" />
+                    </a>
+                    <!-- <a class="github_button boton" target="_blank" href="">
+                        <img src="https://img.icons8.com/ios-filled/100/null/github.png" />
+                    </a> -->
+                </div>
+            </section>
+            <section class="articulo">
+                <picture class="captura">
+                    <img src="./img/tortas.png" />
+                </picture>
+                <div class="texto">
+                    <h2>Página de práctica 4</h2>
+                    <h3>amet consectetur amet consectetur amet consectetur amet consectetur consectetur amet consectetur amet consectetur amet consectetur</h3>
+                </div>
+                <div class="redes">
+                    <a class="web_button boton" target="_blank" href="./proyectos/tortas/tortas.html">
+                        <img src="https://img.icons8.com/ios-glyphs/90/null/internet--v1.png" />
+                    </a>
+                    <!-- <a class="github_button boton" target="_blank" href="">
+                        <img src="https://img.icons8.com/ios-filled/100/null/github.png" />
+                    </a> -->
+                </div>
+            </section>
+            <section class="articulo">
+                <picture class="captura">
+                    <img src="./img/vecino_sustentable.png" />
+                </picture>
+                <div class="texto">
+                    <h2>Vecino Sustentable</h2>
+                    <h3>amet consectetur amet consectetur amet consectetur amet consectetur consectetur amet consectetur amet consectetur amet consectetur</h3>
+                </div>
+                <div class="redes">
+                    <a class="web_button boton" target="_blank" href="https://dreschpedro.github.io/pagina_vecino_sustentable/">
+                        <img src="https://img.icons8.com/ios-glyphs/90/null/internet--v1.png" />
+                    </a>
+                    <a class="github_button boton" target="_blank" href="https://github.com/dreschpedro/pagina_vecino_sustentable">
+                        <img src="https://img.icons8.com/ios-filled/100/null/github.png" />
+                    </a>
+                </div>
+            </section>
+            <section class="articulo">
+                <picture class="captura">
+                    <img src="./img/imagen.png" />
+                </picture>
+                <div class="texto">
+                    <h2>Sistema de Gestión Vecino Sustentable</h2>
+                    <h3>amet consectetur amet consectetur amet consectetur amet consectetur consectetur amet consectetur amet consectetur amet consectetur</h3>
+                </div>
+                <div class="redes">
+                    <!-- <a class="web_button boton" target="_blank" href="">
+                        <img src="https://img.icons8.com/ios-glyphs/90/null/internet--v1.png" />
+                    </a> -->
+                    <a class="github_button boton" target="_blank" href="https://github.com/dreschpedro/sistema_gestion_vecino">
+                        <img src="https://img.icons8.com/ios-filled/100/null/github.png" />
+                    </a>
+                </div>
+            </section>
+        </div>
     </div>
-    
-    </html>
+</body>
+
+</html>
